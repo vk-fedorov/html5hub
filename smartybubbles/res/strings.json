@@ -1,0 +1,187 @@
+{
+	"language_name": 
+	{
+		"en":"English",
+		"de":"Deutsch"
+	},
+	"thousands_separator":
+	{
+		"en":",",
+		"de":","
+	},
+	"ok":
+	{
+		"en":"OK",
+		"de":"OK"
+	},
+	"cancel":
+	{
+		"en":"Cancel",
+		"de":"Abbrechen"
+	},
+	"restart":
+	{
+		"en":"Restart",
+		"de":"Neustart"
+	},
+	"main_menu":
+	{
+		"en":"Main Menu",
+		"de":"Hauptmenü"
+	},
+	"continue":
+	{
+		"en":"Continue", 
+		"de":"Weiter"
+	},
+	"resume":
+	{
+		"en":"Resume", 
+		"de":"Weiter"
+	},
+	"paused":
+	{
+		"en":"Paused", 
+		"de":"Pause"
+	},
+	"main_menu_play":
+	{
+		"en":"Play", 
+		"de":"Spielen"
+	},
+	"main_menu_statistics":
+	{
+		"en":"Statistics", 
+		"de":"Statistik"
+	},
+	"main_menu_highscores":
+	{
+		"en":"Highscores", 
+		"de":"Highscores"
+	},
+	"main_menu_more_games":
+	{
+		"en":"More Cool Games",
+		"de":"Mehr Spiele"
+	},
+	"update_optional_message":
+	{
+		"en":"A new and improved version of Smarty Bubbles is available! Update now for free!",
+		"de":"Eine neue und verbesserte Version von Smarty Bubbles ist verfügbar! Jetzt kostenlos herunterladen!"
+	},
+	"update_optional_button_update":
+	{
+		"en":"Download",
+		"de":"Download"
+	},
+	"update_optional_button_later":
+	{
+		"en":"Later",
+		"de":"Später"
+	},
+	"update_forced_message":
+	{
+		"en":"A new and improved version of Smarty Bubbles is available! Update now for free!",
+		"de":"Eine neue und verbesserte Version von Smarty Bubbles ist verfügbar! Jetzt kostenlos herunterladen!"
+	},
+	"update_forced_button_update":
+	{
+		"en":"Download",
+		"de":"Download"
+	},
+	"results_game_won":
+	{
+		"en":"All Cleared!",
+		"de":"Gewonnen!"
+	},
+	"results_game_lost":
+	{
+		"en":"Game Over!",
+		"de":"Spiel vorbei!"
+	},
+	"results_balls_shot":
+	{
+		"en":"Balls shot",
+		"de":"Schüsse"
+	},
+	"results_bubbles_cleared":
+	{
+		"en":"Bubbles cleared",
+		"de":"Zerplatzte Kugeln"
+	},
+	"results_largest_group":
+	{
+		"en":"Largest group",
+		"de":"Grösste Gruppe"
+	},
+	"results_hit_ratio":
+	{
+		"en":"Hit ratio",
+		"de":"Trefferrate"
+	},
+	"results_play_time":
+	{
+		"en":"Time",
+		"de":"Spielzeit"
+	},
+	"results_new_highscore":
+	{
+		"en":"New Highscore!",
+		"de":"Neuer Highscore!"
+	},
+	"results_old_score":
+	{
+		"en":"Previous Best",
+		"de":"Bisheriger Rekord"
+	},
+	"statistics_title":
+	{
+		"en":"Statistics",
+		"de":"Statistik"
+	},
+	"statistics_bubbles_cleared":
+	{
+		"en":"Bubbles cleared",
+		"de":"Zerplatzte Kugeln"
+	},
+	"statistics_play_time":
+	{
+		"en":"Time played",
+		"de":"Gespielte Zeit"
+	},
+	"statistics_games_played":
+	{
+		"en":"Games played",
+		"de":"Gespielte Spiele"
+	},
+	"statistics_games_won":
+	{
+		"en":"Games won",
+		"de":"Gewonnen"
+	},
+	"statistics_fewest_balls":
+	{
+		"en":"Fewest shots",
+		"de":"Wenigste Schüsse"
+	},
+	"highscores_title":
+	{
+		"en":"Highscores",
+		"de":"Highscores"
+	},
+	"highscores_you":
+	{
+		"en":"Player",
+		"de":"Spieler"
+	},
+	"restart_dialog_message":
+	{
+		"en":"Restart the game? The current game will end.",
+		"de":"Wirklich neu starten? Das laufende Spiel wird beendet."
+	},
+	"quit_to_main_menu_dialog_message":
+	{
+		"en":"Quit to menu? The current game will end.",
+		"de":"Zurück ins Menü? Das laufende Spiel wird beendet."
+	}
+}
