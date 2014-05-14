@@ -1,0 +1,144 @@
+* {
+	margin: 0; padding: 0;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	-webkit-tap-highlight-color: transparent;
+}
+html { width: 100%; height: 100%; }
+
+body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+}
+
+*[unselectable=on] {
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#mainCon {
+	position: relative;
+	width: 100%;
+	height: 100%;
+/*	overflow: hidden;*/
+	background-color: #000000;
+}
+#limitCon {
+	position: relative;
+	margin: 0 auto;
+	width: 320px;
+	height: 470px;
+	overflow: visible;
+	/*background-color: #ded895;*/
+}
+#canvasCon {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 320px;
+	height: 470px;
+	overflow: none;
+	/*background-color: #ded895;*/
+	background-size: contain;
+	background-position: center top;
+}
+#gameCanvas {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+#touchOverlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+/*	background-color: #00A4A6;*/
+}
+
+.screen {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	overflow: hidden;
+}
+.screen.show {
+	display: block;
+}
+
+.screenContentWrapper {
+	display: table;
+	text-align: center;
+	vertical-align: middle;
+	height: 100%;
+	width: 100%;
+}
+.screenContent {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#adInterstitialScreen {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#adInterstitialWrapper {
+	position: relative;
+	display: inline-block;
+}
+.adMobile #adInterstitialWrapper {
+	width: 300px;
+	height: 250px;
+}
+.adDesktop #adInterstitialWrapper {
+	width: 300px;
+	height: 600px;
+}
+
+#adInterstitialClose {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 22px;
+	height: 22px;
+	background-image: url('../imgs/xbutton.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#adInterstitialClose:hover {
+	cursor: pointer;
+}
+
+#adGameOverScreen {
+	width: 100%;
+	height: auto;
+}
+
+.ad {
+	display: none;
+	margin: 0 auto;
+}
+.ad.show, div[id^='div-gpt-ad-'].show {
+	display: block;
+}
+
+#initScreen {
+	color: #000000;
+	font-size: 16px;
+}
